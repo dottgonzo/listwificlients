@@ -31,7 +31,7 @@ export default function listwifi(device: string):Promise<IWifiClient[]> {
                         if (stdout.split('\n')[i].split('signal: ')[1].split('\t')[1].split('[').length > 1) {
                             reallist[reallist.length - 1].signal = stdout.split('\n')[i].split('signal: ')[1].split('\t')[1].split('[')[0] + 'dBm'
                             reallist[reallist.length - 1].signalMin = stdout.split('\n')[i].split('signal: ')[1].split('[')[1].split(',')[0] + ' dBm'
-                            reallist[reallist.length - 1].signalMax = stdout.split('\n')[i].split('signal: ')[1].split('[')[1].split(',')[1].split(']')[0] + ' dBm'
+                            reallist[reallist.length - 1].signalMax = stdout.split('\n')[i].split('signal: ')[1].split('[')[1].split(', ')[1].split(']')[0] + ' dBm'
 
                         } else {
                             reallist[reallist.length - 1].signal = stdout.split('\n')[i].split('signal: ')[1].split('\t')[1]
