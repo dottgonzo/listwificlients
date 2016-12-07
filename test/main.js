@@ -1,0 +1,11 @@
+"use strict";
+var index_1 = require("../index");
+var chai = require("chai");
+var expect = chai.expect;
+index_1.default('wlp3s0').then(function (a) {
+    console.log(a);
+}).catch(function (err) {
+    console.log(err);
+});
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRlc3QvbWFpbi50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsc0JBQTJCLFVBQzNCLENBQUMsQ0FEb0M7QUFDckMsSUFBWSxJQUFJLFdBQU0sTUFFdEIsQ0FBQyxDQUYyQjtBQUU1QixJQUFNLE1BQU0sR0FBQyxJQUFJLENBQUMsTUFBTSxDQUFBO0FBR3hCLGVBQWMsQ0FBQyxRQUFRLENBQUMsQ0FBQyxJQUFJLENBQUMsVUFBQyxDQUFDO0lBQ2hDLE9BQU8sQ0FBQyxHQUFHLENBQUMsQ0FBQyxDQUFDLENBQUE7QUFDZCxDQUFDLENBQUMsQ0FBQyxLQUFLLENBQUMsVUFBQyxHQUFHO0lBQ1QsT0FBTyxDQUFDLEdBQUcsQ0FBQyxHQUFHLENBQUMsQ0FBQTtBQUNwQixDQUFDLENBQUMsQ0FBQSIsImZpbGUiOiJ0ZXN0L21haW4uanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgd2lmaWNsaWVudGxpc3QgZnJvbSBcIi4uL2luZGV4XCJcbmltcG9ydCAqIGFzIGNoYWkgZnJvbSBcImNoYWlcIlxuXG5jb25zdCBleHBlY3Q9Y2hhaS5leHBlY3RcblxuXG53aWZpY2xpZW50bGlzdCgnd2xwM3MwJykudGhlbigoYSkgPT4ge1xuY29uc29sZS5sb2coYSlcbn0pLmNhdGNoKChlcnIpID0+IHtcbiAgICBjb25zb2xlLmxvZyhlcnIpXG59KSJdfQ==

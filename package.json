@@ -1,6 +1,6 @@
 {
   "name": "listwificlients",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "List wifi clients connected with hostapd",
   "main": "index.js",
   "scripts": {
