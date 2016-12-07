@@ -10,8 +10,6 @@
         "experimentalDecorators": true
     },
     "exclude": [
-        "node_modules",
-        "dists",
-        "front/node_modules"
+        "node_modules"
     ]
 }
